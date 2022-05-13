@@ -11,7 +11,6 @@ public class PortalModel {
     @Id
     @GeneratedValue
     Integer id;
-//    @Column(unique = true)
     String email;
     String password;
     String firstName;
